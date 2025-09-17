@@ -3,8 +3,8 @@ public class Main {
         Atm atm = new Atm();
 
 
-        atm.deposit(100);
-        atm.deposit("CHK12345", 500);
-        atm.deposit("+1234567890", 250.75);
+        Atm.deposit(100);
+        Atm.deposit("CHK12345", 500);
+        Atm.deposit("+1234567890", 250.75);
     }
 }
