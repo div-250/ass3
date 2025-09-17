@@ -1,7 +1,6 @@
 public class Atm {
     public void deposit(int amount) {
-        System.out.println("Deposited $" + amount + " in cash");
-    }
+
 
 
     public void deposit(String checkNumber, int amount) {
